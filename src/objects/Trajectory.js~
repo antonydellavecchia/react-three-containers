@@ -1,0 +1,14 @@
+const zeroMap = (position) => 0
+
+export default class VectorField {
+  constructor({x = zeroMap, y = zeroMap, z = zeroMap}) {
+    // defaults to null vector field
+    this.x = x
+    this.y = y
+    this.z = z
+  }
+  
+  flow (position, time) => {
+    
+  }
+}

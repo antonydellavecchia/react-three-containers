@@ -1,0 +1,12 @@
+import * as THREE from 'three'
+export default class Model {
+  constructor(unfiorms, ) { 
+    let material = new THREE.ShaderMaterial( {
+      uniforms: uniforms,
+      vertexShader: VertexShader,
+      fragmentShader: fragmentShader,
+      transparent: this.name == 'twinkle',
+      opacity: 0.5
+    } );
+  }
+}
